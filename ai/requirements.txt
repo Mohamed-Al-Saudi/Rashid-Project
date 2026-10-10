@@ -1,0 +1,7 @@
+# Training-only packages for a computer, not for the ESP32 firmware.
+# Install in a virtual environment and pin tested versions before sharing.
+numpy
+pillow
+matplotlib
+scikit-learn
+tensorflow

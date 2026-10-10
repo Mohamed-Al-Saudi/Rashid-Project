@@ -1,0 +1,35 @@
+# Secrets / local configuration
+firmware/src/config.h
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Build artifacts
+.pio/
+build/
+dist/
+*.bin
+*.elf
+*.map
+
+# Local datasets and generated results
+ai/dataset/*
+!ai/dataset/README.md
+!ai/dataset/.gitkeep
+ai/outputs/
+ai/models/*
+!ai/models/README.md
+!ai/models/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
