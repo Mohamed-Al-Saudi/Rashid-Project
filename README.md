@@ -1,4 +1,4 @@
-# Rashed Project — ESP32-CAM Energy-Waste Detection
+# Rashid Project — ESP32-CAM Energy-Waste Detection
 
 This repository contains the starter structure for a camera-based module that will later be integrated into a robot.
 
