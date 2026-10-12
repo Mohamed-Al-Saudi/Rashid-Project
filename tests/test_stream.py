@@ -2,7 +2,7 @@
 import cv2
 
 # Replace this with your actual ESP32-CAM stream URL.
-STREAM_URL = "http://192.168.137.156:8080/"
+STREAM_URL = "http://192.168.137.92:8080/"
 
 cap = cv2.VideoCapture(STREAM_URL)
 
