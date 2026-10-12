@@ -1,0 +1,18 @@
+# Rashed Project - Live Stream to Local AI
+# Works with ESP32-CAM (http://192.168.x.x:81/stream) and Phone IP Webcam
+
+# Core - Video Stream Handling
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Local AI Model - YOLOv8 runs 100% offline after first download
+ultralytics>=8.2.0
+
+# Deep Learning Backend (ultralytics will install this automatically, but we pin it)
+torch>=2.1.0
+torchvision>=0.16.0
+Pillow>=10.0.0
+
+# Utils
+PyYAML>=6.0
+requests>=2.31.0
